@@ -4,30 +4,34 @@ html {
 
 body {
     background-color: black;
-    font-family: 'Popins', Verdana, sans-serif;
+    font-family: 'Roboto', 'Popins', Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0% 0%;   
+    flex-wrap: wrap;
 }
+
+/* Qui inizia la parte sopra */
 
 .top {
     background-color: #1F2937;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 10% 10% 10%;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
 }
 
 .logo {
     color: #F9FAF8;
-    font-size: 140%;
+    font-size: 150%;
     font-weight: bolder;
     margin-right: 4%;   
+    flex: 1;
 }
 
 ul {
@@ -42,8 +46,108 @@ a {
     text-decoration: none;
     font-size: 110%;
     color: #E5E7EB;
+
 }
 
-li {
-    flex-shrink: 1;
+/* Qui inizia il hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
 }
+
+.sx {
+    width: 35%;
+}
+
+.img {
+    background-color: gray;
+    padding: 10% 15% 10% 15%;
+    color: #E5E7EB;
+
+}
+
+.herotitle {
+    color: #F9FAF8;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.awsm {
+    color: #E5E7EB;
+    font-size: 120%;
+}
+
+p {
+    margin: 0% 0% 3% 0% ;
+}
+
+.signbutton {
+    text-align: center;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 18%;
+    padding: 2% 3% 2% 3%;
+    border-radius: 7px;
+}
+
+/* Partiamo col resto xD */
+
+.restoxd {
+    background-color: #F9FAF8;
+    padding: 0% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#randomtitle {
+
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 4%;
+
+}
+
+.card {
+    flex-shrink: 1;
+    width: 200px;
+    height: auto;
+
+}
+
+.cardimg {
+    padding-top: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 5%;
+}
+
+.cardtext {
+    color: rgb(87, 86, 86);
+    font-size: large;
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+
+/* Inizio quota */
+
+.quoteq {
+    background-color: #E5E7EB;
+
+}
+
