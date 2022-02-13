@@ -1,10 +1,6 @@
-html {
-    
-}
-
 body {
     background-color: black;
-    font-family: 'Roboto', 'Popins', Verdana, sans-serif;
+    font-family: 'Mulish', 'Roboto', 'Popins', Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0% 0%;   
@@ -102,11 +98,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #randomtitle {
-
     font-weight: 900;
     color: #1F2937;
     font-size: 200%;
@@ -119,14 +113,12 @@ p {
     justify-content: center;
     margin-top: 5%;
     gap: 4%;
-
 }
 
 .card {
     flex-shrink: 1;
     width: 200px;
     height: auto;
-
 }
 
 .cardimg {
@@ -140,8 +132,6 @@ p {
     font-size: large;
     text-align: center;
     margin-top: 5%;
-    
-
 }
 
 /* Inizio quota */
@@ -154,18 +144,16 @@ p {
     align-items: center;
     padding: 100px 400px 100px 400px;
     color: #1F2937;
-
 }
 
-.quotetext {
-   
+.quotetext {   
     font-size: 36px;
     font-weight: lighter;
-    font-style: italic;
+    font-style: italic;    
 }
 
 .quoteauth {
     font-size: 18px;
     font-weight: bolder;
-
+    margin-left: auto;
 }
