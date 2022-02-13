@@ -102,7 +102,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+
 }
 
 #randomtitle {
@@ -148,6 +148,24 @@ p {
 
 .quoteq {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px 100px 400px;
+    color: #1F2937;
 
 }
 
+.quotetext {
+   
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quoteauth {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
